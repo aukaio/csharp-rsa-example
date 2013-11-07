@@ -124,7 +124,7 @@ class MerchantApiClient
 
     public HttpWebRequest GetRequest(string url, string method)
     {
-        HttpWebRequest request = WebRequest.CreateHttp(URL_PREFIX + url);
+        HttpWebRequest request = (HttpWebRequest) WebRequest.Create(URL_PREFIX + url);
         request.AllowAutoRedirect = false;
         request.Method = method;  // Must be set BEFORE signature is computed.
         request.Accept = "application/vnd.mcash.api.merchant.v1+json";
