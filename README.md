@@ -1,7 +1,7 @@
 C# RSA Example
 ==================
 
-Example implementation of mCSAH RSA signatures in C#
+Example implementation of mCASH RSA signatures in C#
 
 
 In this example you'll find the MerchantApiKeyAuht class that implements the correct RSA signature scheme for mCASH APIs.
