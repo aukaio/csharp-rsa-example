@@ -89,7 +89,7 @@ class MerchantApiKeyAuth
 
 class MerchantApiClient
 {
-    public string URL_PREFIX = "https://merchanttestbed.appspot.com/merchant/v1";
+    public string URL_PREFIX = "https://mcashtestbed.appspot.com/merchant/v1";
     public string encoding = "UTF-8";
     public MerchantApiKeyAuth auth;
 
